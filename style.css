@@ -1,0 +1,71 @@
+body{
+  margin: 0 0 0 0;
+  background-color:ivory;
+}
+
+nav{
+  background-color: red;
+  padding: 15px 25px;
+}
+
+.brand-container{
+  display: inline-block;
+}
+
+.brand-title{
+  display: inline-block;
+  margin: 0 0 0 0;
+  color: white;
+  font-family:verdana;
+  position: relative;
+  top: 1px;
+  left:15px;
+}
+
+.links-container{
+  float: right;
+  position: relative;
+  top: -10px;
+  bottom: 10px;
+}
+
+.link{
+  color: yellow;
+  text-decoration: none;
+  font-family: verdana;
+  margin:0 15px;
+}
+
+h1{
+  font-size: 70px;
+  font-variant: small-caps;
+}
+
+h2{
+    font-variant: small-caps;
+}
+
+p{
+  text-align: justify;
+  font-family:'Segoe UI';
+}
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.container{
+  width:450px;
+  height:250px;
+}
+
+.swiper{
+  width: 80%;
+  height: fit-content;
+}
+
+.swiper-slide img{
+  width: 100%;
+}
